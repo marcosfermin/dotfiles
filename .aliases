@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+
+
+# NAVIGATION
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+#LS TYPICAL LINUX COMMANDS
+alias la="ls -la"
+alias ll="ls -l"
+alias lh="ls -h"
+
+# COMMON DIRECTORIES
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias dc="cd ~/Documents"
+alias m="cd ~/Documents/mappedin"
+alias p="cd ~/Documents/projects"
+alias home="cd ~"
+
+
+# WORK DIRECTORIES
+alias tri="cd /Users/marcos/Documents/mappedin/tricorder"
+
+
+# GIT
+alias g="git"
+alias gs="git status"
+alias gd="git diff"
+alias gb="git branch"
+alias gc="git checkout"
+alias gp="git push"
+alias gm="git checkout master"
+alias gl="git log --graph --all"
+
+# EASIER DOTFILE EDITING
+alias aliases="nano ~/.aliases && . ~/.aliases"
+alias bashrc="nano ~/.bashrc && . ~/.bashrc"
+alias bashprofile="nano ~/.bash_profile && . ~/.bash_profile"
+
+
+# HELPFUL TERMINAL ALIASES
+alias c="clear"
+alias python="python3"
+alias path='echo -e ${PATH//:/\\n}'
+
+
+# SHOW/HIDE HIDDEN FILES
+alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+
+# SHOW/HIDE DESKTOP ICONS
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
