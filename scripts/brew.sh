@@ -58,7 +58,9 @@ declare -a cask_apps=(
     'qbittorrent'
     'balenaetcher'
     'unetbootin'
-    
+    'skype'
+    'microsoft-teams'
+    'adobe-acrobat-reader'
 )
 echo "Installing brew cask apps"
 for cask_app in "${cask_apps[@]}"; do
