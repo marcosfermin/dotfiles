@@ -33,3 +33,9 @@ unset setupHome;
 sh scripts/brew.sh
 sh scripts/config.sh
 sh scripts/defaults.sh
+
+# SET DEFAULT SHELL TO BASH
+chsh -s /bin/bash
+
+# CLOSING MESSAGE
+echo "THE SCRIPT INSTALLATION HAS BEEN COMPLETED. PLEASE RESTART YOUR TERMINAL TO SEE THE CHANGES";
