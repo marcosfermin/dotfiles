@@ -7,7 +7,7 @@ My personal configuration files for macOS using `bash`
 If `git` is already installed:
 
 ```
-git clone https://github.com/marcosfermin/dotfiles.git && cd dotfiles && source setup.sh
+git clone https://github.com/marcosfermin/dotfiles.git && cd dotfiles && chmod +x setup.sh && ./setup.sh
 ```
 
 ---
