@@ -64,6 +64,7 @@ declare -a cask_apps=(
     'neofetch'
     'bpytop'
     'iterm2'
+    'pycharm'
 )
 echo "Installing brew cask apps"
 for cask_app in "${cask_apps[@]}"; do
